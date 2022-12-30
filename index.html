@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game Quiz with Lekarios</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Assets/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="GQ">Game Quiz with Lekarios</div>
+            <div>You have 30 seconds to answer 5 JavaScript related questions. Each wrong answer will cost you 5 seconds. </div>
+            <div>Good Luck!</div>
+        </header>
+        <main>
+            <!-- This is my Get Started spot -->
+            <section>
+                <div>
+                    <div>Let's Get Started</div>
+                    <button id ="buttonID" class="button">Begin Quiz</button>
+                    <h1 class="questions"></h1>
+                    <button id ="choice0" class="choices">Choice1</button><br>
+                    <button id ="choice1" class="choices">Choice2</button><br>
+                    <button id ="choice2" class="choices">Choice3</button><br>
+                    <button id ="choice3" class="choices">Choice4</button><br>
+                    <h2 id="answer" class="questions"></h2>
+                </div>
+            </section>
+
+            <!-- This is my scoreboard -->
+            <section>
+                <div>
+                    <div>
+                        <h2 class="timer" >30</h2>
+                        <h2 id="winId">Wins: </h2>
+                        <h2 id="loostId">Losses: </h2>
+                        <h2 id="answerRight">Right answers: 0</h2>
+                        <h2 id="answerWrong">Wrong answers: 0 </h2>
+                    </div>
+                        <button id="resetId">Reset Scoreboard</button>
+                </div>
+                <!-- This is my countdown box -->
+                <div>
+                    <div>
+                        <!-- div class = "timer-text" -->
+                        <!-- div class = "large-font timer-count">10</div> -->
+                        <!-- <h3> Seconds Remaining</h3> -->
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <div>
+                        <h2 class="timer" ></h2>
+                        <h2 id="Score Board">Score Board: </h2>
+                    </div>
+                    <h2 id="ScoreTextID1"></h2>
+                    <h2 id="ScoreTextID2"></h2>
+                    <h2 id="ScoreTextID3"></h2>
+                </div>
+
+            </section>
+        </main>
+        
+        <script src="Assets/script.js"></script>
+    </body>
+</html>
